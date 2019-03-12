@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(lalit.JPG.JPG); height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50%;
+
+
+}
+.bhai{float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.bhai li{
+ display:inline-block;
+
+}
+.bhai li a {
+  color: white;
+  text-decoration: none;
+  padding:  3px 10px;
+  font-family:"roboto" , sans-serif;
+  font-size: 15px;
+}
+.bhai li.to a{
+  border: 5px solid orange;
+  
+}
+.bhai li a:hover {background-color:orange;
+  border: 1px solid white;
+}
+
+
+.logo{ float: left;
+  height: auto;
+  margin: 10px;
+
+
+}
+body{
+  font-family: monospace;
+}
+.row{
+  max-width: 1200px;
+  margin:auto;
+}
+.hero{
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-top: 0px;
+
+}
+h1{color: white;
+text-transform: uppercase;
+font-size: 70px;
+text-align: center;
+margin-top: 270px;
+margin-left: 30px;}
+.button{
+  margin-left: 440px;
+  margin-top: 30px;
+
+}
+.btn{
+  border: 1px solid white;
+  padding: 10px 30px;
+color: white;
+text-decoration: none;
+margin-right: 5px;
+font-size: 15px;
+text-transform: uppercase;
+
+}
+.btn1{
+  background-color: darkorange;
+  font-family: "roboto", sans-serif;
+
+}
+.btn2{
+  font-family: "roboto" ,sans-serif;
+
+}
+.btn2:hover{background-color: skyblue;
+transition: all 0.5s ease-in;
+}
